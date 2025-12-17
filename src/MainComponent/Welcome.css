@@ -1,0 +1,15 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  height: 70vh;
+}
+
+.welcome > section {
+  text-align: center;
+}
+.welcome h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}

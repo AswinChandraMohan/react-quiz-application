@@ -1,0 +1,33 @@
+.quiz {
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(85, 222, 110);
+}
+
+.quiz header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2em;
+}
+
+.quiz main {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: orange;
+  height: 70%;
+}
+
+.quiz footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.quiz footer button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  margin-left: 1rem;
+}

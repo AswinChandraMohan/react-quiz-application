@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.home > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 1rem;
+}
+.home h1 {
+  color: orange;
+  font-size: 1rem;
+}
+.home button {
+  background-color: rgb(88, 237, 88);
+  padding: 1em 2em;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-right: 1em;
+}
+.home button:active {
+  background-color: orange;
+  color: black;
+}

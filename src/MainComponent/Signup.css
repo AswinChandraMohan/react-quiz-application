@@ -1,0 +1,38 @@
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.signup form {
+  text-align: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 2rem;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.signup form h2{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.signup input {
+  padding: 1em;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+input[type="submit"] {
+  background-color: greenyellow;
+}
+input:disabled {
+  background-color: gray;
+  color: white;
+  text-decoration: line-through;
+}

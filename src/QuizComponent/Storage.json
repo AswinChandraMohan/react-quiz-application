@@ -1,0 +1,63 @@
+[
+     {
+    "id":"1",
+    "question":"2+2",
+    "options":[4,5,3,6],
+    "correctAnswer":"4",
+    "yourAnswer":null
+    }, {
+    "id":"2",
+    "question":"2+5",
+    "options":[4,7,9,8],
+    "correctAnswer":"7",
+    "yourAnswer":null
+    }, {
+    "id":"3",
+    "question":"22+2",
+    "options":[33,25,23,24],
+    "correctAnswer":"24",
+    "yourAnswer":null
+    }, {
+    "id":"4",
+    "question":"10+30",
+    "options":[40,50,70,60],
+    "correctAnswer":"40",
+    "yourAnswer":null
+    }, {
+    "id":"5",
+    "question":"22+28",
+    "options":[47,50,53,46],
+    "correctAnswer":"50",
+    "yourAnswer":null
+    }, {
+    "id":"6",
+    "question":"32+2",
+    "options":[37.35,33,34],
+    "correctAnswer":"34",
+    "yourAnswer":null
+    }, {
+    "id":"7",
+    "question":"8+2",
+    "options":[14,15,10,11],
+    "correctAnswer":"10",
+    "yourAnswer":null
+    }, {
+    "id":"8",
+    "question":"23+21",
+    "options":[41,48,45,44],
+    "correctAnswer":"44",
+    "yourAnswer":null
+    }, {
+    "id":"9",
+    "question":"3+2",
+    "options":[4,5,3,7],
+    "correctAnswer":"5",
+    "yourAnswer":null
+    }, {
+    "id":"10",
+    "question":"54+24",
+    "options":[88,87,78,77],
+    "correctAnswer":"78",
+    "yourAnswer":null
+    }
+]
