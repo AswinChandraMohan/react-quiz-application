@@ -1,16 +1,33 @@
-# React + Vite
+# React Quiz Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a web-based quiz system developed using React. The quiz questions are predefined and maintained within the application code. MockAPI is used as a mock backend exclusively for storing and retrieving user-related data such as user responses and scores. All quiz evaluation and score computation are handled on the client side within the browser.
 
-Currently, two official plugins are available:
+## Features
+- Displays predefined quiz questions
+- Stores and retrieves user data using MockAPI
+- Client-side quiz evaluation and score calculation
+- Responsive and interactive web interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- MockAPI (for user data storage)
 
-## React Compiler
+## Project Structure
+- `components/` – Reusable React components
+- `services/` – API integration with MockAPI
+- `assets/` – Static resources
+- `screenshots/` – UI screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Setup Instructions
+1. Clone the repository  
+   git clone <repo-url>
 
-## Expanding the ESLint configuration
+2. Install dependencies  
+   npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Start the development server  
+   npm start

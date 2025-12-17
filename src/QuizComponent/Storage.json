@@ -1,63 +1,212 @@
 [
-     {
-    "id":"1",
-    "question":"2+2",
-    "options":[4,5,3,6],
-    "correctAnswer":"4",
-    "yourAnswer":null
-    }, {
-    "id":"2",
-    "question":"2+5",
-    "options":[4,7,9,8],
-    "correctAnswer":"7",
-    "yourAnswer":null
-    }, {
-    "id":"3",
-    "question":"22+2",
-    "options":[33,25,23,24],
-    "correctAnswer":"24",
-    "yourAnswer":null
-    }, {
-    "id":"4",
-    "question":"10+30",
-    "options":[40,50,70,60],
-    "correctAnswer":"40",
-    "yourAnswer":null
-    }, {
-    "id":"5",
-    "question":"22+28",
-    "options":[47,50,53,46],
-    "correctAnswer":"50",
-    "yourAnswer":null
-    }, {
-    "id":"6",
-    "question":"32+2",
-    "options":[37.35,33,34],
-    "correctAnswer":"34",
-    "yourAnswer":null
-    }, {
-    "id":"7",
-    "question":"8+2",
-    "options":[14,15,10,11],
-    "correctAnswer":"10",
-    "yourAnswer":null
-    }, {
-    "id":"8",
-    "question":"23+21",
-    "options":[41,48,45,44],
-    "correctAnswer":"44",
-    "yourAnswer":null
-    }, {
-    "id":"9",
-    "question":"3+2",
-    "options":[4,5,3,7],
-    "correctAnswer":"5",
-    "yourAnswer":null
-    }, {
-    "id":"10",
-    "question":"54+24",
-    "options":[88,87,78,77],
-    "correctAnswer":"78",
-    "yourAnswer":null
+    {
+        "id": "1",
+        "question": "What is the purpose of the useEffect hook in React?",
+        "options": [
+            "To handle state updates",
+            "To perform side effects in function components",
+            "To create class components",
+            "To handle props"
+        ],
+        "correctAnswer": "To perform side effects in function components",
+        "yourAnswer": null
+    },
+    {
+        "id": "2",
+        "question": "Which hook is used to manage state in a functional component?",
+        "options": [
+            "useEffect",
+            "useReducer",
+            "useState",
+            "useContext"
+        ],
+        "correctAnswer": "useState",
+        "yourAnswer": null
+    },
+    {
+        "id": "3",
+        "question": "What is the correct way to pass data from a parent component to a child component?",
+        "options": [
+            "Using state",
+            "Using props",
+            "Using useEffect",
+            "Using context"
+        ],
+        "correctAnswer": "Using props",
+        "yourAnswer": null
+    },
+    {
+        "id": "4",
+        "question": "Which method in React class components is invoked after the component is rendered?",
+        "options": [
+            "componentDidMount",
+            "componentWillUnmount",
+            "render",
+            "shouldComponentUpdate"
+        ],
+        "correctAnswer": "componentDidMount",
+        "yourAnswer": null
+    },
+    {
+        "id": "5",
+        "question": "What is the use of useRef hook in React?",
+        "options": [
+            "To access DOM nodes or persist values across renders",
+            "To update state",
+            "To fetch data from API",
+            "To trigger effects"
+        ],
+        "correctAnswer": "To access DOM nodes or persist values across renders",
+        "yourAnswer": null
+    },
+    {
+        "id": "6",
+        "question": "Which of the following is true about React keys?",
+        "options": [
+            "Keys help React identify which items have changed in a list",
+            "Keys are used for styling components",
+            "Keys store state",
+            "Keys replace props"
+        ],
+        "correctAnswer": "Keys help React identify which items have changed in a list",
+        "yourAnswer": null
+    },
+    {
+        "id": "7",
+        "question": "How can you optimize performance in a React application?",
+        "options": [
+            "Using React.memo for component memoization",
+            "Avoiding useState",
+            "Using setTimeout instead of useEffect",
+            "Using inline functions in render"
+        ],
+        "correctAnswer": "Using React.memo for component memoization",
+        "yourAnswer": null
+    },
+    {
+        "id": "8",
+        "question": "What does lifting state up mean in React?",
+        "options": [
+            "Moving state to a common ancestor component to share between children",
+            "Using useReducer instead of useState",
+            "Storing state in local storage",
+            "Using Redux instead of React state"
+        ],
+        "correctAnswer": "Moving state to a common ancestor component to share between children",
+        "yourAnswer": null
+    },
+    {
+        "id": "9",
+        "question": "Which hook would you use to manage complex state logic in React?",
+        "options": [
+            "useState",
+            "useReducer",
+            "useEffect",
+            "useMemo"
+        ],
+        "correctAnswer": "useReducer",
+        "yourAnswer": null
+    },
+    {
+        "id": "10",
+        "question": "What is the purpose of useMemo hook in React?",
+        "options": [
+            "To memoize expensive calculations and avoid re-computation",
+            "To handle asynchronous tasks",
+            "To update state values",
+            "To fetch data from APIs"
+        ],
+        "correctAnswer": "To memoize expensive calculations and avoid re-computation",
+        "yourAnswer": null
+    },
+    {
+        "id": "11",
+        "question": "Which of the following is used to declare a variable in JavaScript?",
+        "options": ["var", "let", "const", "All of the above"],
+        "correctAnswer": "All of the above",
+        "yourAnswer": null
+    },
+    {
+        "id": "12",
+        "question": "What is the output of `typeof NaN` in JavaScript?",
+        "options": ["number", "NaN", "undefined", "object"],
+        "correctAnswer": "number",
+        "yourAnswer": null
+    },
+    {
+        "id": "13",
+        "question": "Which method is used to convert a JSON string to a JavaScript object?",
+        "options": ["JSON.stringify()", "JSON.parse()", "JSON.object()", "JSON.toJS()"],
+        "correctAnswer": "JSON.parse()",
+        "yourAnswer": null
+    },
+    {
+        "id": "14",
+        "question": "Which of the following is true about JavaScript closures?",
+        "options": [
+            "A function having access to its own scope only",
+            "A function having access to parent scope even after parent function has executed",
+            "A function that returns another function only",
+            "A function that runs immediately"
+        ],
+        "correctAnswer": "A function having access to parent scope even after parent function has executed",
+        "yourAnswer": null
+    },
+    {
+        "id": "15",
+        "question": "What is the difference between `==` and `===` in JavaScript?",
+        "options": [
+            "`==` compares value, `===` compares value and type",
+            "`==` compares type, `===` compares value",
+            "Both are same",
+            "`===` is not valid in JavaScript"
+        ],
+        "correctAnswer": "`==` compares value, `===` compares value and type",
+        "yourAnswer": null
+    },
+    {
+        "id": "16",
+        "question": "Which method is used to add one or more elements to the end of an array?",
+        "options": ["push()", "pop()", "shift()", "unshift()"],
+        "correctAnswer": "push()",
+        "yourAnswer": null
+    },
+    {
+        "id": "17",
+        "question": "Which of the following is a correct way to define an arrow function?",
+        "options": [
+            "const sum = (a, b) => a + b;",
+            "function sum(a, b) => a + b;",
+            "const sum => (a, b) { return a + b; }",
+            "sum = (a, b) => { a + b; }"
+        ],
+        "correctAnswer": "const sum = (a, b) => a + b;",
+        "yourAnswer": null
+    },
+    {
+        "id": "18",
+        "question": "Which keyword is used to handle exceptions in JavaScript?",
+        "options": ["try", "catch", "finally", "All of the above"],
+        "correctAnswer": "All of the above",
+        "yourAnswer": null
+    },
+    {
+        "id": "19",
+        "question": "What does `this` refer to inside an arrow function?",
+        "options": [
+            "The global object",
+            "The object that calls the function",
+            "The enclosing lexical context",
+            "undefined"
+        ],
+        "correctAnswer": "The enclosing lexical context",
+        "yourAnswer": null
+    },
+    {
+        "id": "20",
+        "question": "Which method creates a new array with all elements that pass a test implemented by a function?",
+        "options": ["map()", "filter()", "reduce()", "forEach()"],
+        "correctAnswer": "filter()",
+        "yourAnswer": null
     }
 ]
